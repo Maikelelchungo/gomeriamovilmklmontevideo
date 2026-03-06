@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -6,161 +6,139 @@
 <title>Gomería Móvil MKL Montevideo</title>
 
 <style>
-/* Estilos generales */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f4f4f4;
+
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
 }
 
-/* Header */
-header {
-  background: #111;
-  color: white;
-  padding: 30px;
-  text-align: center;
+header{
+background:#111;
+color:white;
+padding:30px;
+text-align:center;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 32px;
+header h1{
+margin:0;
+font-size:32px;
 }
 
-header p {
-  margin: 5px 0 0 0;
-  font-size: 18px;
+.hero{
+background:#ff3c00;
+color:white;
+padding:40px;
+text-align:center;
 }
 
-/* Hero / Portada */
-.hero {
-  position: relative;
-  text-align: center;
-  color: white;
+.hero h2{
+margin-bottom:10px;
 }
 
-.hero img {
-  width: 100%;
-  max-height: 450px;
-  object-fit: cover;
-  display: block;
+.button{
+background:white;
+color:#ff3c00;
+padding:15px 25px;
+text-decoration:none;
+font-weight:bold;
+border-radius:6px;
 }
 
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+.section{
+padding:40px;
+text-align:center;
 }
 
-.hero-text h2 {
-  font-size: 48px;
-  margin-bottom: 10px;
+.services{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
 }
 
-.hero-text p {
-  font-size: 22px;
-  margin-bottom: 20px;
+.card{
+background:white;
+padding:20px;
+border-radius:8px;
+width:250px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
-.button {
-  background: white;
-  color: #ff3c00;
-  padding: 15px 25px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 6px;
-  display: inline-block;
-  font-size: 18px;
+.whatsapp{
+background:#25D366;
+color:white;
+padding:20px;
+text-align:center;
+font-size:20px;
 }
 
-/* Secciones */
-.section {
-  padding: 40px;
-  text-align: center;
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
 }
 
-.services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  width: 250px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-/* WhatsApp contacto */
-.whatsapp {
-  background: #25D366;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  font-size: 20px;
-}
-
-/* Footer */
-footer {
-  background: #111;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
 </style>
 </head>
 
 <body>
 
-<!-- Header -->
 <header>
-  <h1>Gomería Móvil MKL Montevideo</h1>
-  <p>Servicio de gomería a domicilio</p>
+<h1>Gomería Móvil MKL Montevideo</h1>
+<p>Servicio de gomería a domicilio</p>
 </header>
 
-<!-- Hero / Portada -->
 <section class="hero">
-  <img src="images/portada.jpg" alt="Portada Gomería Móvil">
-  <div class="hero-text">
-    <h2>Gomería Móvil MKL Montevideo</h2>
-    <p>Vamos a donde estés en Montevideo</p>
-    <a class="button" href="https://wa.me/59891038537">Pedir servicio por WhatsApp</a>
-  </div>
+
+<h2>¿Pinchaste una rueda?</h2>
+
+<p>Vamos a donde estés en Montevideo</p>
+
+<a class="button" href="https://wa.me/59891038537">
+Pedir servicio por WhatsApp
+</a>
+
 </section>
 
-<!-- Servicios -->
 <section class="section">
-  <h2>Servicios</h2>
-  <div class="services">
-    <div class="card">
-      <h3>Reparación de pinchazos</h3>
-      <p>Arreglo rápido y profesional.</p>
-    </div>
-    <div class="card">
-      <h3>Cambio de ruedas</h3>
-      <p>Instalación y reemplazo.</p>
-    </div>
-    <div class="card">
-      <h3>Servicio a domicilio</h3>
-      <p>Atendemos en todo Montevideo.</p>
-    </div>
-  </div>
+
+<h2>Servicios</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Reparación de pinchazos</h3>
+<p>Arreglo rápido y profesional.</p>
+</div>
+
+<div class="card">
+<h3>Cambio de ruedas</h3>
+<p>Instalación y reemplazo.</p>
+</div>
+
+<div class="card">
+<h3>Servicio a domicilio</h3>
+<p>Atendemos en todo Montevideo.</p>
+</div>
+
+</div>
+
 </section>
 
-<!-- WhatsApp contacto -->
 <section class="whatsapp">
-  Servicio rápido 🚗  
-  WhatsApp: 091 038 537
+
+Servicio rápido 🚗  
+WhatsApp: 091 038 537
+
 </section>
 
-<!-- Footer -->
 <footer>
-  <p>Gomería Móvil MKL Montevideo</p>
-  <p>Horario: 7:00 a 01:00</p>
+
+<p>Gomería Móvil MKL Montevideo</p>
+<p>Horario: 7:00 a 01:00</p>
+
 </footer>
 
 </body>

@@ -1,145 +1,133 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gomería Móvil MKL Montevideo</title>
-
-<style>
-
-body{
-font-family: Arial;
-margin:0;
-background:#f4f4f4;
-}
-
-header{
-background:#111;
-color:white;
-padding:30px;
-text-align:center;
-}
-
-header h1{
-margin:0;
-font-size:32px;
-}
-
-.hero{
-background:#ff3c00;
-color:white;
-padding:40px;
-text-align:center;
-}
-
-.hero h2{
-margin-bottom:10px;
-}
-
-.button{
-background:white;
-color:#ff3c00;
-padding:15px 25px;
-text-decoration:none;
-font-weight:bold;
-border-radius:6px;
-}
-
-.section{
-padding:40px;
-text-align:center;
-}
-
-.services{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:20px;
-}
-
-.card{
-background:white;
-padding:20px;
-border-radius:8px;
-width:250px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
-}
-
-.whatsapp{
-background:#25D366;
-color:white;
-padding:20px;
-text-align:center;
-font-size:20px;
-}
-
-footer{
-background:#111;
-color:white;
-text-align:center;
-padding:20px;
-}
-
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gomería Móvil MKL</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #ff5722;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400?text=Gomería+Móvil') no-repeat center center;
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      text-shadow: 2px 2px 4px #000;
+    }
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .services {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .service-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .service-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #ff5722;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background-color: #e64a19;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
 </head>
-
 <body>
+  <header>
+    <h1>Gomería Móvil MKL</h1>
+    <nav>
+      <a href="#services">Servicios</a>
+      <a href="#about">Quiénes somos</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
 
-<header>
-<h1>Gomería Móvil MKL Montevideo</h1>
-<p>Servicio de gomería a domicilio</p>
-</header>
+  <div class="hero">
+    ¡Servicio de gomería a domicilio rápido y confiable!
+  </div>
 
-<section class="hero">
+  <section id="services">
+    <h2>Nuestros Servicios</h2>
+    <div class="services">
+      <div class="service-card">
+        <img src="https://via.placeholder.com/250x150?text=Reparación+de+Pinchazos" alt="Reparación de Pinchazos">
+        <h3>Reparación de Pinchazos</h3>
+        <p>Solucionamos pinchazos al instante, donde estés.</p>
+        <a href="https://wa.me/59891038537" class="btn">WhatsApp</a>
+      </div>
+      <div class="service-card">
+        <img src="https://via.placeholder.com/250x150?text=Cambio+de+Neumáticos" alt="Cambio de Neumáticos">
+        <h3>Cambio de Neumáticos</h3>
+        <p>Cambio de neumáticos con rapidez y seguridad.</p>
+        <a href="tel:+59891038537" class="btn">Llamar</a>
+      </div>
+      <div class="service-card">
+        <img src="https://via.placeholder.com/250x150?text=Inflado+de+Neumáticos" alt="Inflado de Neumáticos">
+        <h3>Inflado de Neumáticos</h3>
+        <p>Revisamos y ajustamos la presión para tu seguridad.</p>
+        <a href="https://wa.me/59891038537" class="btn">WhatsApp</a>
+      </div>
+    </div>
+  </section>
 
-<h2>¿Pinchaste una rueda?</h2>
+  <section id="about">
+    <h2>Quiénes somos</h2>
+    <p>Somos Gomería Móvil MKL, servicio profesional a domicilio en Montevideo. Nuestro objetivo es ayudarte a resolver cualquier problema con tus neumáticos sin que tengas que desplazarte.</p>
+  </section>
 
-<p>Vamos a donde estés en Montevideo</p>
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>📞 Teléfono: <a href="tel:+59891038537">091 038 537</a></p>
+    <p>📩 WhatsApp: <a href="https://wa.me/59891038537">Inicia conversación</a></p>
+    <p>📍 Montevideo, Uruguay</p>
+  </section>
 
-<a class="button" href="https://wa.me/59891038537">
-Pedir servicio por WhatsApp
-</a>
-
-</section>
-
-<section class="section">
-
-<h2>Servicios</h2>
-
-<div class="services">
-
-<div class="card">
-<h3>Reparación de pinchazos</h3>
-<p>Arreglo rápido y profesional.</p>
-</div>
-
-<div class="card">
-<h3>Cambio de ruedas</h3>
-<p>Instalación y reemplazo.</p>
-</div>
-
-<div class="card">
-<h3>Servicio a domicilio</h3>
-<p>Atendemos en todo Montevideo.</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="whatsapp">
-
-Servicio rápido 🚗  
-WhatsApp: 091 038 537
-
-</section>
-
-<footer>
-
-<p>Gomería Móvil MKL Montevideo</p>
-<p>Horario: 7:00 a 01:00</p>
-
-</footer>
-
+  <footer>
+    © 2026 Gomería Móvil MKL - Todos los derechos reservados
+  </footer>
 </body>
 </html>
